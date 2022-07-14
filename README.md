@@ -39,13 +39,16 @@ Após 24h de funcionamento, os resultados mostram que no cenário 1 o tempo méd
 
 Caixa	Tempo de espera(min)
 Caixa1(server1):	11,34
+
 Caixa2(server2):	29,42
+
 Caixa3(server3):	8,41
 
 Já para o cenário 2 para os mesmos parâmetros de chegada e de processo, o tempo de espera foi zero, dessa forma e possível concluir que o segundo modo é mais eficiente do que o primeiro.
 
 
 Colocar contador para filas: 
+
 Para adicionar o contador somente para a fila do processo é simples. Basta adicionar um “Status Label” e em “Expression” coloque “Nome.AllocationQueue”, dessa forma ele vai contar a quantidade de elementos na fila.
  
 ![](fila06.png)
