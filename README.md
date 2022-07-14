@@ -38,6 +38,7 @@ Após 24h de funcionamento, os resultados mostram que no cenário 1 o tempo méd
 
 
 Caixa	Tempo de espera(min)
+
 Caixa1(server1):	11,34
 
 Caixa2(server2):	29,42
